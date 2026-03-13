@@ -6,26 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
       name="description"
-      content="[Name] is a [Role] building performant, maintainable software and shipping impactful products."
+      content="EAIM is a Development Engineer | Data Analytics in Japan, specializing in enterprise software, cloud platforms, and analytics systems."
     />
-    <title>[Name] | [Role] Portfolio</title>
+    <title>EAIM | Development Engineer | Data Analytics</title>
     <link rel="canonical" href="https://your-domain.com/" />
 
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="[Name] Portfolio" />
-    <meta property="og:title" content="[Name] | [Role] Portfolio" />
+    <meta property="og:site_name" content="EAIM Portfolio" />
+    <meta property="og:title" content="EAIM | Development Engineer | Data Analytics" />
     <meta
       property="og:description"
-      content="[Name] is a [Role] building performant, maintainable software and shipping impactful products."
+      content="Software engineer in Japan focused on backend systems, cloud architecture, and data analytics platforms."
     />
     <meta property="og:url" content="https://your-domain.com/" />
     <meta property="og:image" content="https://your-domain.com/og-image.jpg" />
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="[Name] | [Role] Portfolio" />
+    <meta name="twitter:title" content="EAIM | Development Engineer | Data Analytics" />
     <meta
       name="twitter:description"
-      content="[Name] is a [Role] building performant, maintainable software and shipping impactful products."
+      content="Software engineer in Japan focused on backend systems, cloud architecture, and data analytics platforms."
     />
     <meta name="twitter:image" content="https://your-domain.com/og-image.jpg" />
 
@@ -33,7 +33,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
     <link
@@ -44,26 +44,38 @@
       {
         "@context": "https://schema.org",
         "@type": "Person",
-        "name": "[Name]",
-        "jobTitle": "[Role]",
+        "name": "EAIM",
+        "jobTitle": "Development Engineer | Data Analytics",
         "url": "https://your-domain.com/",
-        "description": "[Name] is a [Role] building performant, maintainable software and shipping impactful products.",
-        "sameAs": [
-          "https://github.com/your-username",
-          "https://www.linkedin.com/in/your-handle"
-        ]
+        "description": "Software engineer in Japan focused on backend systems, cloud architecture, and data analytics platforms.",
+        "email": "hmemoments@gmail.com"
       }
     </script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <a class="skip-link" href="#main">Skip to content</a>
+    <a class="skip-link" href="#main" data-i18n="common.skip">Skip to content</a>
 
     <header class="navbar" id="top">
       <div class="container navbar-inner">
-        <a class="navbar-brand" href="#top"
-          ><span class="navbar-brand-mark" aria-hidden="true"></span>[Your Name]</a
-        >
+        <a class="navbar-brand" href="#top">EAIM</a>
+
+        <div class="navbar-right">
+          <nav class="navbar-menu" id="primary-nav" aria-label="Primary">
+            <ul>
+              <li><a href="#about" data-i18n="nav.about">About</a></li>
+              <li><a href="#journey" data-i18n="nav.journey">Journey</a></li>
+              <li><a href="#experience" data-i18n="nav.experience">Experience</a></li>
+              <li><a href="#skills" data-i18n="nav.skills">Skills</a></li>
+              <li><a href="#certifications" data-i18n="nav.certifications">Certifications</a></li>
+              <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="lang-switcher" aria-label="Language switcher">
+            <button id="language-toggle" class="lang-button" type="button">EN</button>
+          </div>
+        </div>
+
         <button
           class="navbar-toggle"
           type="button"
@@ -75,14 +87,6 @@
           <span></span>
           <span></span>
         </button>
-        <nav class="navbar-menu" id="primary-nav" aria-label="Primary">
-          <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
       </div>
     </header>
 
@@ -99,85 +103,179 @@
           <span></span>
         </div>
         <div class="container hero-layout">
-          <div class="hero-content">
-            <p class="hero-eyebrow">Developer Portfolio</p>
-            <h1 class="hero-heading" id="hero-title">[Your Name]</h1>
-            <p class="hero-tagline">
-              Building clean, reliable products with a focus on code quality and
-              user impact.
-            </p>
-            <p class="hero-typing" aria-live="polite">
-              <span>I enjoy </span><span id="typed-skill"></span
-              ><span class="typing-cursor">|</span>
-            </p>
-            <a class="button button-primary" id="view-work-btn" href="#projects"
-              >View My Work</a
-            >
+          <div class="hero-main">
+            <div class="hero-content hero-content-left">
+              <p class="hero-eyebrow" data-i18n="hero.eyebrow">DEVELOPER PORTFOLIO</p>
+              <h1 class="hero-heading" id="hero-title">EAIM</h1>
+              <p class="hero-tagline">
+                <span data-i18n="hero.taglineLine1">Software Engineer</span>
+                <span data-i18n="hero.taglineLine2">Data Analytics &amp; Cloud</span>
+              </p>
+              <p class="hero-description" data-i18n="hero.summaryMain">
+                Software engineer currently working in a Data Analytics team in Japan.
+                Experienced in enterprise software development, cloud platforms, backend
+                systems, and data analytics solutions.
+              </p>
+              <div class="hero-actions">
+                <a class="button button-primary" id="view-work-btn" href="#experience"
+                  data-i18n="hero.button">View Work</a
+                >
+              </div>
+            </div>
+
+            <aside class="hero-content hero-content-right" data-animate>
+              <p class="hero-panel-title" data-i18n="hero.summaryTitle">Professional Summary</p>
+              <p class="hero-description" data-i18n="hero.summaryPanel">
+                Software engineer currently working in a Data Analytics team in Japan.
+                Experienced in enterprise software development, cloud platforms, backend
+                systems, and data analytics solutions.
+              </p>
+              <p class="hero-panel-title" data-i18n="hero.focusTitle">Current Focus</p>
+              <ul class="hero-focus-tags" aria-label="Current focus areas">
+                <li data-i18n="hero.focus1">Data Analytics</li>
+                <li data-i18n="hero.focus2">Backend Development</li>
+                <li data-i18n="hero.focus3">Cloud Platforms</li>
+                <li data-i18n="hero.focus4">Databricks</li>
+                <li data-i18n="hero.focus5">Cross-border Communication</li>
+              </ul>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-block section-about" id="about" aria-labelledby="about-title">
+        <div class="container">
+          <div class="about-layout" data-animate>
+            <div class="about-content">
+              <h2 id="about-title" data-i18n="about.title">👩‍💻 About</h2>
+              <p data-i18n="about.p1">
+                EAIM is a software engineer from Myanmar currently working in Japan.
+              </p>
+              <p data-i18n="about.p2">
+                She is currently working as a Development Engineer in a Data
+                Analytics Team, focusing on backend systems, analytics platforms,
+                and cloud-based data solutions.
+              </p>
+              <p data-i18n="about.p3">
+                She has experience working in multiple Japanese IT companies and
+                has contributed to enterprise software systems, digital strategy
+                platforms, and data-driven applications.
+              </p>
+              <p data-i18n="about.p4">
+                Her technical strengths include Java development, cloud
+                architecture, data analytics technologies, and communication
+                between Myanmar and Japanese teams.
+              </p>
+            </div>
+            <div class="about-visual">
+              <div class="about-frame">
+                <div class="about-frame-inner">
+                  <img
+                    class="about-illustration"
+                    src="images/profile.jpeg"
+                    alt="Professional profile photo"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
       <section
-        class="section-block section-projects"
-        id="projects"
-        aria-labelledby="projects-title"
+        class="section-block section-education"
+        id="journey"
+        aria-labelledby="journey-title"
       >
         <div class="container">
           <div class="projects-heading" data-animate>
-            <h2 id="projects-title">Featured Projects</h2>
-            <p>Selected builds focused on impact, performance, and usability.</p>
+            <h2 id="journey-title" data-i18n="journey.title">🎓 Journey</h2>
+          </div>
+          <div class="education-grid">
+            <article class="card-education" data-animate="project-card">
+              <h3 data-i18n="journey.highSchool">High School</h3>
+              <p class="edu-school">No.2 Basic Education High School Sanchaung (St. Philomena)</p>
+              <p class="edu-meta" data-i18n="journey.highSchoolGrad">Graduated: March 2011</p>
+            </article>
+            <article class="card-education" data-animate="project-card">
+              <h3 data-i18n="journey.university">University</h3>
+              <p class="edu-school">Yangon University of Foreign Languages (YUFL)</p>
+              <p class="edu-meta" data-i18n="journey.universityMajor">Major: Japanese (Foreign Languages)</p>
+              <p class="edu-meta" data-i18n="journey.universityEnrollment">Enrollment: 3 Dec 2012</p>
+              <p class="edu-meta" data-i18n="journey.universityGraduation">Graduation: Jan 2016</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section-block section-experience"
+        id="experience"
+        aria-labelledby="experience-title"
+      >
+        <div class="container">
+          <div class="projects-heading" data-animate>
+            <h2 id="experience-title" data-i18n="experience.title">💼 Experience</h2>
+            <p data-i18n="experience.subtitle">Enterprise software, cloud systems, and analytics engineering roles.</p>
           </div>
 
-          <div class="projects-grid">
-            <article class="card-project" data-animate="project-card">
-              <h3>Japan</h3>
-              <ul class="card-project-tags" aria-label="Japan technologies">
-                <li class="tag-react">React</li>
-                <li class="tag-node">Node.js</li>
-                <li class="tag-postgres">PostgreSQL</li>
+          <div class="experience-grid">
+            <article class="card-experience" data-animate="project-card">
+              <h3>ACE Data Systems (Myanmar)</h3>
+              <p class="exp-role" data-i18n="experience.role1">Japanese Translator / Software Project Support</p>
+              <p class="exp-date">Dec 2015 - Jan 2019</p>
+              <ul class="exp-list">
+                <li data-i18n="experience.role1Bullet1">Translation work for offshore projects with Japan</li>
+                <li data-i18n="experience.role1Bullet2">Interpretation support for communication with Japanese teams</li>
+                <li data-i18n="experience.role1Bullet3">Software documentation development</li>
+                <li data-i18n="experience.role1Bullet4">System design evaluation support</li>
+                <li data-i18n="experience.role1Bullet5">Technical communication and coordination</li>
               </ul>
-              <p class="card-project-desc">
-                [Description] A location-first platform for exploring culture,
-                transit, and neighborhoods across Japan.
-              </p>
-              <div class="card-project-links">
-                <a href="#" target="_blank" rel="noreferrer">GitHub</a>
-                <a href="#" target="_blank" rel="noreferrer">Live Demo</a>
-              </div>
             </article>
 
-            <article class="card-project" data-animate="project-card">
-              <h3>AI</h3>
-              <ul class="card-project-tags" aria-label="AI technologies">
-                <li class="tag-python">Python</li>
-                <li class="tag-fastapi">FastAPI</li>
-                <li class="tag-openai">OpenAI API</li>
+            <article class="card-experience" data-animate="project-card">
+              <h3>TechnoPro IT Co., Ltd. (Japan)</h3>
+              <p class="exp-role" data-i18n="experience.role2">Software Engineer</p>
+              <p class="exp-date">Mar 2019 - Feb 2021</p>
+              <ul class="exp-list">
+                <li data-i18n="experience.role2Bullet1">Enterprise software development</li>
+                <li data-i18n="experience.role2Bullet2">Backend system engineering</li>
+                <li data-i18n="experience.role2Bullet3">System implementation support</li>
               </ul>
-              <p class="card-project-desc">
-                [Description] An AI workflow assistant that summarizes context and
-                proposes executable next steps.
-              </p>
-              <div class="card-project-links">
-                <a href="#" target="_blank" rel="noreferrer">GitHub</a>
-                <a href="#" target="_blank" rel="noreferrer">Live Demo</a>
-              </div>
             </article>
 
-            <article class="card-project" data-animate="project-card">
-              <h3>Cycling To World</h3>
-              <ul class="card-project-tags" aria-label="Cycling To World technologies">
-                <li class="tag-js">JavaScript</li>
-                <li class="tag-mapbox">Mapbox</li>
-                <li class="tag-firebase">Firebase</li>
+            <article class="card-experience" data-animate="project-card">
+              <h3>Meitec Fielder Co., Ltd. (Japan)</h3>
+              <p class="exp-role" data-i18n="experience.role3">IT Engineer</p>
+              <p class="exp-date">Mar 2021 - Oct 2021</p>
+              <ul class="exp-list">
+                <li data-i18n="experience.role3Bullet1">Software development</li>
+                <li data-i18n="experience.role3Bullet2">IT system implementation</li>
               </ul>
-              <p class="card-project-desc">
-                [Description] A route-journal app for tracking long rides, goals,
-                and global cycling milestones.
-              </p>
-              <div class="card-project-links">
-                <a href="#" target="_blank" rel="noreferrer">GitHub</a>
-                <a href="#" target="_blank" rel="noreferrer">Live Demo</a>
-              </div>
+            </article>
+
+            <article class="card-experience" data-animate="project-card">
+              <h3>Prored Partners Co., Ltd. (Japan)</h3>
+              <p class="exp-role" data-i18n="experience.role4">Software Engineer - Strategic Digital Division</p>
+              <p class="exp-date">Nov 2021 - May 2023</p>
+              <ul class="exp-list">
+                <li data-i18n="experience.role4Bullet1">Enterprise system development</li>
+                <li data-i18n="experience.role4Bullet2">Digital strategy platform development</li>
+                <li data-i18n="experience.role4Bullet3">Backend system implementation</li>
+              </ul>
+            </article>
+
+            <article class="card-experience" data-animate="project-card">
+              <h3>Azest Co., Ltd. (Japan)</h3>
+              <p class="exp-role" data-i18n="experience.role5">Development Engineer - Data Analytics Team</p>
+              <p class="exp-date">Aug 2023 - Present</p>
+              <ul class="exp-list">
+                <li data-i18n="experience.role5Bullet1">Data analytics platform development</li>
+                <li data-i18n="experience.role5Bullet2">Backend software development</li>
+                <li data-i18n="experience.role5Bullet3">System analysis and architecture design</li>
+                <li data-i18n="experience.role5Bullet4">Cloud data platform integration</li>
+              </ul>
             </article>
           </div>
         </div>
@@ -189,39 +287,99 @@
         aria-labelledby="skills-title"
       >
         <div class="container">
-          <h2 id="skills-title" data-animate>Skills</h2>
-          <ul class="skills-grid" aria-label="Technical skills">
-            <li class="card-skill" data-animate="skill-item"><i class="devicon-python-plain"></i><span>Python</span></li>
-            <li class="card-skill" data-animate="skill-item"><i class="devicon-docker-plain"></i><span>Docker</span></li>
-            <li class="card-skill" data-animate="skill-item"><i class="devicon-react-original"></i><span>React</span></li>
-            <li class="card-skill" data-animate="skill-item"><i class="devicon-postgresql-plain"></i><span>PostgreSQL</span></li>
-            <li class="card-skill" data-animate="skill-item"><i class="devicon-amazonwebservices-original"></i><span>AWS</span></li>
-            <li class="card-skill" data-animate="skill-item"><i class="devicon-nodejs-plain"></i><span>Node.js</span></li>
-            <li class="card-skill" data-animate="skill-item"><i class="devicon-typescript-plain"></i><span>TypeScript</span></li>
-            <li class="card-skill" data-animate="skill-item"><i class="devicon-git-plain"></i><span>Git</span></li>
-            <li class="card-skill" data-animate="skill-item"><i class="devicon-linux-plain"></i><span>Linux</span></li>
-          </ul>
+          <h2 id="skills-title" data-animate data-i18n="skills.title">⚙️ Skills</h2>
+
+          <div class="skills-groups">
+            <article class="skills-group" data-animate>
+              <h3 data-i18n="skills.programming">Programming</h3>
+              <ul class="skills-badges">
+                <li class="badge-tech" data-animate="skill-item">Java</li>
+                <li class="badge-tech" data-animate="skill-item">Python</li>
+                <li class="badge-tech" data-animate="skill-item">SQL</li>
+              </ul>
+            </article>
+
+            <article class="skills-group" data-animate>
+              <h3 data-i18n="skills.cloudData">Cloud &amp; Data</h3>
+              <ul class="skills-badges">
+                <li class="badge-tech" data-animate="skill-item">Google Cloud</li>
+                <li class="badge-tech" data-animate="skill-item">Databricks</li>
+                <li class="badge-tech" data-animate="skill-item">Cloud Architecture</li>
+                <li class="badge-tech" data-animate="skill-item">Data Analytics</li>
+              </ul>
+            </article>
+
+            <article class="skills-group" data-animate>
+              <h3 data-i18n="skills.tools">Tools</h3>
+              <ul class="skills-badges">
+                <li class="badge-tech" data-animate="skill-item">Docker</li>
+                <li class="badge-tech" data-animate="skill-item">Git</li>
+                <li class="badge-tech" data-animate="skill-item">Maven</li>
+                <li class="badge-tech" data-animate="skill-item">Postman</li>
+              </ul>
+            </article>
+
+            <article class="skills-group" data-animate>
+              <h3 data-i18n="skills.languages">Languages</h3>
+              <ul class="skills-badges">
+                <li class="badge-tech" data-animate="skill-item">Japanese</li>
+                <li class="badge-tech" data-animate="skill-item">English</li>
+                <li class="badge-tech" data-animate="skill-item">Myanmar</li>
+              </ul>
+            </article>
+          </div>
         </div>
       </section>
 
-      <section class="section-block section-about" id="about" aria-labelledby="about-title">
+      <section
+        class="section-block section-certifications"
+        id="certifications"
+        aria-labelledby="certifications-title"
+      >
         <div class="container">
-          <div class="about-layout" data-animate>
-            <div class="about-content">
-              <h2 id="about-title">About</h2>
-              <p>
-                I'm a builder who turns ambiguous ideas into clear, shippable
-                products. My approach combines clean architecture, thoughtful UX,
-                and practical delivery speed. I care about writing software that
-                is easy to maintain, fast to use, and meaningful for real people.
-              </p>
-            </div>
-            <div class="about-visual" aria-hidden="true">
-              <span class="shape shape-orb"></span>
-              <span class="shape shape-ring"></span>
-              <span class="shape shape-grid"></span>
-            </div>
-          </div>
+          <h2 id="certifications-title" data-animate data-i18n="certifications.title">🏆 Certifications</h2>
+          <ul class="cert-grid">
+            <li class="card-cert" data-animate="project-card">
+              <p class="cert-date">Jan 2017</p>
+              <h3 data-i18n="certifications.item1">JLPT N1 (Japanese Language Proficiency Test)</h3>
+              <p class="cert-desc" data-i18n="certifications.desc1">Japanese language proficiency test at N1 level.</p>
+            </li>
+            <li class="card-cert" data-animate="project-card">
+              <p class="cert-date">Feb 2019</p>
+              <h3 data-i18n="certifications.item2">TOEIC</h3>
+              <p class="cert-desc" data-i18n="certifications.desc2">English communication and business proficiency score certification.</p>
+            </li>
+            <li class="card-cert" data-animate="project-card">
+              <p class="cert-date">Dec 2019</p>
+              <h3 data-i18n="certifications.item3">Information Technology Engineers Examination (IP)</h3>
+              <p class="cert-desc" data-i18n="certifications.desc3">National IT engineering foundational qualification exam.</p>
+            </li>
+            <li class="card-cert" data-animate="project-card">
+              <p class="cert-date">Jan 2021</p>
+              <h3 data-i18n="certifications.item4">Business Japanese Test (BJT)</h3>
+              <p class="cert-desc" data-i18n="certifications.desc4">Business Japanese communication competency evaluation test.</p>
+            </li>
+            <li class="card-cert" data-animate="project-card">
+              <p class="cert-date">Aug 2020</p>
+              <h3 data-i18n="certifications.item5">Oracle Certified Java Programmer Bronze</h3>
+              <p class="cert-desc" data-i18n="certifications.desc5">Entry-level Java programming certification by Oracle.</p>
+            </li>
+            <li class="card-cert" data-animate="project-card">
+              <p class="cert-date">Oct 2022</p>
+              <h3 data-i18n="certifications.item6">Oracle Certified Java Programmer Silver</h3>
+              <p class="cert-desc" data-i18n="certifications.desc6">Intermediate Java programming certification by Oracle.</p>
+            </li>
+            <li class="card-cert" data-animate="project-card">
+              <p class="cert-date">Feb 2024</p>
+              <h3 data-i18n="certifications.item7">Google Professional Cloud Architect</h3>
+              <p class="cert-desc" data-i18n="certifications.desc7">Professional-level cloud architecture and design certification.</p>
+            </li>
+            <li class="card-cert" data-animate="project-card">
+              <p class="cert-date">Jan 2026</p>
+              <h3 data-i18n="certifications.item8">Databricks Data Analyst Associate</h3>
+              <p class="cert-desc" data-i18n="certifications.desc8">Associate-level certification for analytics on Databricks.</p>
+            </li>
+          </ul>
         </div>
       </section>
 
@@ -232,70 +390,69 @@
       >
         <div class="container contact-layout">
           <div class="contact-intro" data-animate>
-            <h2 id="contact-title">Contact</h2>
-            <p class="contact-cta">
-              Building something ambitious? Let's collaborate and ship it.
-            </p>
+            <h2 id="contact-title" data-i18n="contact.title">📬 Contact</h2>
+            <p class="contact-cta" data-i18n="contact.cta">Let's build reliable, data-driven products together.</p>
+            <p class="contact-line"><strong data-i18n="contact.githubLabel">GitHub:</strong> <a href="https://github.com/eaim" target="_blank" rel="noreferrer">github.com/eaim</a></p>
+            <p class="contact-line"><strong data-i18n="contact.emailLabel">Email:</strong> <a href="mailto:hmemoments@gmail.com">hmemoments@gmail.com</a></p>
+            <p class="contact-line"><strong data-i18n="contact.phoneLabel">Phone:</strong> <a href="tel:+959263334744">+959 263334744</a></p>
           </div>
-          <div class="contact-grid">
-            <form
-              class="form-contact"
-              data-animate
-              action="mailto:you@example.com"
-              method="post"
-              enctype="text/plain"
-            >
-              <label for="contact-name">Name</label>
-              <input id="contact-name" name="name" type="text" required />
 
-              <label for="contact-email">Email</label>
-              <input id="contact-email" name="email" type="email" required />
-
-              <label for="contact-message">Message</label>
-              <textarea
-                id="contact-message"
-                name="message"
-                rows="5"
-                required
-              ></textarea>
-
-              <button class="button button-primary" type="submit">Send Email</button>
-            </form>
-
-            <div class="contact-social" aria-label="Social links" data-animate>
-              <a class="button-icon" href="#" target="_blank" rel="noreferrer" aria-label="GitHub">
-                <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <path
-                    d="M12 2C6.48 2 2 6.58 2 12.23c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49 0-.24-.01-1.04-.01-1.88-2.78.62-3.37-1.2-3.37-1.2-.45-1.18-1.1-1.5-1.1-1.5-.9-.63.07-.62.07-.62 1 .07 1.52 1.04 1.52 1.04.88 1.56 2.32 1.11 2.88.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.15-4.56-5.13 0-1.14.39-2.07 1.03-2.8-.1-.26-.45-1.33.1-2.76 0 0 .84-.28 2.75 1.07A9.28 9.28 0 0 1 12 6.86c.85 0 1.71.12 2.51.36 1.91-1.35 2.75-1.07 2.75-1.07.55 1.43.2 2.5.1 2.76.64.73 1.03 1.66 1.03 2.8 0 3.99-2.34 4.87-4.58 5.12.36.32.69.95.69 1.92 0 1.39-.01 2.5-.01 2.84 0 .27.18.6.69.49A10.3 10.3 0 0 0 22 12.23C22 6.58 17.52 2 12 2z"
-                  />
-                </svg>
-                <span>GitHub</span>
-              </a>
-              <a class="button-icon" href="#" target="_blank" rel="noreferrer" aria-label="LinkedIn">
-                <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <path
-                    d="M6.94 8.5A1.94 1.94 0 1 1 7 4.62a1.94 1.94 0 0 1-.06 3.88zM5.3 9.98h3.3v9.4H5.3v-9.4zm5.2 0h3.16v1.29h.05c.44-.84 1.51-1.73 3.12-1.73 3.34 0 3.96 2.24 3.96 5.16v4.68h-3.3v-4.15c0-.99-.02-2.26-1.35-2.26-1.36 0-1.57 1.09-1.57 2.19v4.22h-3.3v-9.4z"
-                  />
-                </svg>
-                <span>LinkedIn</span>
-              </a>
-              <a class="button-icon" href="mailto:you@example.com" aria-label="Email">
-                <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <path
-                    d="M3 6.5A2.5 2.5 0 0 1 5.5 4h13A2.5 2.5 0 0 1 21 6.5v11a2.5 2.5 0 0 1-2.5 2.5h-13A2.5 2.5 0 0 1 3 17.5v-11zm2 .29V17.5c0 .28.22.5.5.5h13a.5.5 0 0 0 .5-.5V6.8l-6.48 4.53a.9.9 0 0 1-1.04 0L5 6.8zm12.92-.79H6.08L12 10.12 17.92 6z"
-                  />
-                </svg>
-                <span>Email</span>
-              </a>
-            </div>
+          <div class="contact-social" aria-label="Social links" data-animate>
+            <a class="button-icon" href="https://github.com/eaim" target="_blank" rel="noreferrer" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M12 2C6.48 2 2 6.58 2 12.23c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49 0-.24-.01-1.04-.01-1.88-2.78.62-3.37-1.2-3.37-1.2-.45-1.18-1.1-1.5-1.1-1.5-.9-.63.07-.62.07-.62 1 .07 1.52 1.04 1.52 1.04.88 1.56 2.32 1.11 2.88.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.15-4.56-5.13 0-1.14.39-2.07 1.03-2.8-.1-.26-.45-1.33.1-2.76 0 0 .84-.28 2.75 1.07A9.28 9.28 0 0 1 12 6.86c.85 0 1.71.12 2.51.36 1.91-1.35 2.75-1.07 2.75-1.07.55 1.43.2 2.5.1 2.76.64.73 1.03 1.66 1.03 2.8 0 3.99-2.34 4.87-4.58 5.12.36.32.69.95.69 1.92 0 1.39-.01 2.5-.01 2.84 0 .27.18.6.69.49A10.3 10.3 0 0 0 22 12.23C22 6.58 17.52 2 12 2z"
+                />
+              </svg>
+              <span data-i18n="contact.githubButton">GitHub</span>
+            </a>
+            <a class="button-icon" href="mailto:hmemoments@gmail.com" aria-label="Email">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M3 6.5A2.5 2.5 0 0 1 5.5 4h13A2.5 2.5 0 0 1 21 6.5v11a2.5 2.5 0 0 1-2.5 2.5h-13A2.5 2.5 0 0 1 3 17.5v-11zm2 .29V17.5c0 .28.22.5.5.5h13a.5.5 0 0 0 .5-.5V6.8l-6.48 4.53a.9.9 0 0 1-1.04 0L5 6.8zm12.92-.79H6.08L12 10.12 17.92 6z"
+                />
+              </svg>
+              <span data-i18n="contact.emailButton">Email</span>
+            </a>
+            <a class="button-icon" href="tel:+959263334744" aria-label="Phone">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M6.62 10.79a15.1 15.1 0 0 0 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1C10.4 21 3 13.6 3 4c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.24.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"
+                />
+              </svg>
+              <span data-i18n="contact.phoneButton">Phone</span>
+            </a>
           </div>
         </div>
       </section>
     </main>
 
     <footer class="footer-site">
-      <div class="container">
-        <p>&copy; <span id="year"></span> [Your Name]. All rights reserved.</p>
+      <div class="container footer-inner">
+        <p class="footer-name">EAIM</p>
+        <nav class="footer-links" aria-label="Footer contact links">
+          <a href="mailto:hmemoments@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M3 6.5A2.5 2.5 0 0 1 5.5 4h13A2.5 2.5 0 0 1 21 6.5v11a2.5 2.5 0 0 1-2.5 2.5h-13A2.5 2.5 0 0 1 3 17.5v-11zm2 .29V17.5c0 .28.22.5.5.5h13a.5.5 0 0 0 .5-.5V6.8l-6.48 4.53a.9.9 0 0 1-1.04 0L5 6.8zm12.92-.79H6.08L12 10.12 17.92 6z"
+              />
+            </svg>
+          </a>
+          <a href="https://github.com/eaim" target="_blank" rel="noreferrer" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M12 2C6.48 2 2 6.58 2 12.23c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49 0-.24-.01-1.04-.01-1.88-2.78.62-3.37-1.2-3.37-1.2-.45-1.18-1.1-1.5-1.1-1.5-.9-.63.07-.62.07-.62 1 .07 1.52 1.04 1.52 1.04.88 1.56 2.32 1.11 2.88.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.15-4.56-5.13 0-1.14.39-2.07 1.03-2.8-.1-.26-.45-1.33.1-2.76 0 0 .84-.28 2.75 1.07A9.28 9.28 0 0 1 12 6.86c.85 0 1.71.12 2.51.36 1.91-1.35 2.75-1.07 2.75-1.07.55 1.43.2 2.5.1 2.76.64.73 1.03 1.66 1.03 2.8 0 3.99-2.34 4.87-4.58 5.12.36.32.69.95.69 1.92 0 1.39-.01 2.5-.01 2.84 0 .27.18.6.69.49A10.3 10.3 0 0 0 22 12.23C22 6.58 17.52 2 12 2z"
+              />
+            </svg>
+          </a>
+          <a href="tel:+959263334744" aria-label="Phone">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M6.62 10.79a15.1 15.1 0 0 0 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1C10.4 21 3 13.6 3 4c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.24.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"
+              />
+            </svg>
+          </a>
+        </nav>
       </div>
     </footer>
 

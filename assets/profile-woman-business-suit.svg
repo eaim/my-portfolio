@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 620" role="img" aria-labelledby="title desc">
+  <title id="title">Professional Woman Portrait</title>
+  <desc id="desc">Minimal flat illustration of a female software engineer in a business suit.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e9f7ff"/>
+      <stop offset="100%" stop-color="#d9f6ec"/>
+    </linearGradient>
+    <linearGradient id="suit" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#1f5ea8"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f0f8ff"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#1f5ea8" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="520" height="620" fill="url(#bg)"/>
+  <circle cx="430" cy="120" r="70" fill="#10b981" opacity="0.12"/>
+  <circle cx="95" cy="520" r="85" fill="#3b82f6" opacity="0.12"/>
+
+  <g filter="url(#soft)">
+    <rect x="74" y="40" width="372" height="540" rx="34" fill="#ffffff" fill-opacity="0.7"/>
+  </g>
+
+  <g transform="translate(90 64)">
+    <ellipse cx="170" cy="468" rx="96" ry="12" fill="#3b82f6" opacity="0.16"/>
+
+    <path d="M74 430c10-94 46-152 96-152s86 58 96 152z" fill="url(#suit)"/>
+    <path d="M134 304l36 42 36-42 20 14-50 68h-12l-50-68z" fill="url(#accent)"/>
+    <rect x="157" y="386" width="26" height="46" rx="9" fill="#1c4f86"/>
+
+    <circle cx="170" cy="214" r="58" fill="#f2cfbf"/>
+    <path d="M110 214c1-64 31-96 82-96 41 0 74 30 77 74-30-16-59-17-90 2-18 10-35 18-58 20z" fill="#2f5f86"/>
+    <path d="M127 240c10 24 29 35 43 35s33-11 43-35v28h-86z" fill="#edf7ff"/>
+
+    <rect x="72" y="278" width="28" height="13" rx="6" fill="#f2cfbf"/>
+    <rect x="240" y="278" width="28" height="13" rx="6" fill="#f2cfbf"/>
+
+    <rect x="98" y="336" width="144" height="76" rx="13" fill="#f6fbff" stroke="#3b82f6" stroke-opacity="0.28"/>
+    <rect x="110" y="352" width="120" height="8" rx="4" fill="#cde5ff"/>
+    <rect x="110" y="368" width="88" height="8" rx="4" fill="#d8efe8"/>
+    <circle cx="212" cy="370" r="8" fill="#10b981"/>
+    <path d="M144 200c8-6 18-6 26 0" fill="none" stroke="#8f5f4a" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>
